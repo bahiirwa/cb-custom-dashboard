@@ -1,0 +1,145 @@
+:root {
+    --colorPrimary:#23282d;
+    --colorSecondary:#0073aa
+    --colorAccent:#0073aa;
+}
+
+body{
+    background:rgba(202, 223, 232, 0.34);
+}
+
+#adminmenu, 
+#adminmenu .wp-submenu, 
+#adminmenuback,
+#adminmenuwrap,
+#wpadminbar {
+    background: #fff;
+}
+#adminmenuback {
+    border-right: 1px solid #eee;
+}
+#wpadminbar {
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow:0 1px 3px #e5e5e5;
+}
+
+#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions>li {
+    margin: auto;
+}
+
+/*#wp-admin-bar-wp-logo,
+#wp-admin-bar-site-name,
+#wp-admin-bar-comments,
+#wp-admin-bar-new-content, 
+#contextual-help-link, 
+#menu-dashboard .wp-submenu,
+.user-admin-bar-front-wrap,
+.user-rich-editing-wrap,
+.user-admin-color-wrap,
+.user-comment-shortcuts-wrap,
+.user-syntax-highlighting-wrap,
+.user-profile-picture,
+.user-url-wrap,
+#wp-admin-bar-user-info,
+#wp-admin-bar-edit-profile,
+#footer-thankyou{
+    display: none;
+}
+*/
+#wpadminbar #wp-admin-bar-my-account.with-avatar>.ab-empty-item img, 
+#wpadminbar #wp-admin-bar-my-account.with-avatar>a img,
+#wp-admin-bar-user-info .avatar {
+    border-radius: 50%;
+}
+
+#wpadminbar .menupop .ab-sub-wrapper {
+    background: #fff;
+}
+
+li#wp-admin-bar-logout {
+    margin-top: 30px;
+}
+
+li#wp-admin-bar-logout a {
+    background: var(--colorAccent);
+    border-radius: 5px;
+    color: #fff !important;
+    width: auto !important;
+    text-align:center;
+
+}
+
+li#wp-admin-bar-logout a:hover {
+    background:var(--colorSecondary);
+}
+
+#wpadminbar a.ab-item {
+    color: rgb(57, 58, 61) !important;
+}
+
+#adminmenu a, #adminmenu .wp-submenu a {
+    color: rgb(57, 58, 61);
+}
+
+#wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item {
+    background: #fff;
+}
+
+div.wp-menu-image:before {
+    color: rgb(57,58,61) !important;
+}
+
+.form-field.term-slug-wrap,
+.form-field.form-required.term-name-wrap p,
+.form-field.term-description-wrap p{
+    display: none;
+}
+
+
+div#profile-page input[type=datetime-local],
+div#profile-page input[type=datetime],
+div#profile-page input[type=email],
+div#profile-page input[type=month],
+div#profile-page input[type=number],
+div#profile-page input[type=password],
+/*div#profile-page input[type=radio],*/
+div#profile-page input[type=search],
+div#profile-page input[type=tel],
+div#profile-page input[type=text],
+div#profile-page input[type=time],
+div#profile-page input[type=url],
+div#profile-page input[type=week],
+div#profile-page select,
+div#profile-page textarea,
+form#createuser input[type=datetime-local],
+form#createuser input[type=datetime],
+form#createuser input[type=email],
+form#createuser input[type=month],
+form#createuser input[type=number],
+form#createuser input[type=password],
+/*form#createuser input[type=radio],*/
+form#createuser input[type=search],
+form#createuser input[type=tel],
+form#createuser input[type=text],
+form#createuser input[type=time],
+form#createuser input[type=url],
+form#createuser input[type=week],
+form#createuser select,
+form#createuser textarea {
+	border: 1px solid #ddd;
+	width: 100%;
+	padding: 5px 10px;
+}
+
+div#profile-page input[type=checkbox] {
+	border: 1px solid #ddd;
+}
+
+#createuser,div#profile-page {
+    background: #fff;
+    padding:40px;
+}
+
+form#your-profile h2 {
+    display: none !important;
+}

@@ -1,0 +1,52 @@
+body.login {}
+body.login div#login {}
+body.login div#login h1 {}
+body.login div#login h1 a {}
+body.login div#login form#loginform {}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {
+    
+}
+body.login div#login form#loginform input {}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit {}
+body.login div#login p#nav {}
+body.login div#login p#nav a {}
+body.login div#login p#backtoblog {
+    display:none;
+}
+body.login div#login p#backtoblog a {}
+body {
+    background: #23282d !important;
+}
+#login h1 a, .login h1 a {
+    background-image: url('../happy-admin-logo-white.png');
+    height:80px;
+    width:320px;
+    background-size: 64px;
+    background-repeat: no-repeat;
+}
+.login form {
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+
+.login form .input, .login input[type=text] {
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.wp-core-ui .button-primary {
+    background: #23282d;
+}
+.wp-core-ui .button-primary:hover{
+    background: #555d66;
+}
+
+.login #backtoblog a, .login #nav a {
+    color: #ccc;
+}
